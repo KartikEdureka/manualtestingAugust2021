@@ -1,0 +1,82 @@
+- Login Module--------Tested by QA 'A'
+- Home Screen Module-----Tested by QA 'B"
+- Account page Creation Module------Tested by QA 'C'
+
+
+
+Regression
+Login ,home ,Account--->
+
+Login-----func1 ,func2,func3
+
+
+Retesting
+
+verifying bug
+
+
+
+
+Application name : 
+
+Facebook
+
+Smoke
+
+- Application gtting launched or not
+- is data getting populated or not
+
+
+Sanity
+done before regression , high level testing
+
+
+Retesting
+
+testing bug again  ,if it is fixed or not
+
+
+Regression
+
+
+Sprint 1;    
+
+Modules which have already been developed & tested
+
+Login
+
+Regression scope is Login
+
+Sprint 2
+
+Home page
+
+Regression scope is  Login ,Home page
+Account Creation
+
+Sprint 3
+Login ,home ,account
+
+
+
+Bottom up approach----Driver--->Main Module
+Top Down Approach-----Stubs----->Sub-Modules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
