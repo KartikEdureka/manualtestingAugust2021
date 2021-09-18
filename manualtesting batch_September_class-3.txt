@@ -1,0 +1,197 @@
+Mercury tours : Travel Portal
+
+
+
+- Requirement
+
+
+R01) User should be able to create account in travel portal
+R02) User should be able to log into the application
+
+Description:
+    - user should be able to enter username
+	- password field should be present
+     - Login Button
+
+     Secutity criteria:
+      - username should be between 6-16 character
+      - username to start with uppercase
+      - atleast one numeric character
+      - one special character	
+
+Abcdef12,
+Natasha @123
+Sweet18@,True@12#
+Abcdefghijkl123?	  
+Sami#1
+	  
+	 password:
+     - should be different from username
+     - should have atleast one special character (@#$%^)
+     - should be between 6-16 character   	 
+
+
+
+
+R03) User should be able to book Ticket
+R04) User should be able to make transaction
+R05) User should be able to search
+
+
+
+
+
+Q: who creates the scenario?
+- Testing Team
+
+
+
+
+
+Requirement-------->Test conditions------>Scenarios-------->Test cases
+
+
+
+Scenario 1: User should be able to login to application with valid credentials
+
+data for username;  Acvbfnd$we12
+data for password;  Abfnd$we12
+
+Scenario 2; Try to login with invalid username but valid password
+data for username;  Acvbfnd$we
+data for password;  Abfnd$we12
+
+Scenario 3; Try to login with valid username but invalid password
+data for username;  Acvbfnd$we12
+data for password;  Abfndwe12
+
+Scenario 4: Invalid username and password
+data for username;  Acvbfnd$we
+data for password;  Abfndwe
+
+
+Scenario 5; Keep usename field blank but enter password
+
+Scenario 6: keep password field blank
+
+
+
+
+
+
+Testcase contains
+
+Test case = scenarios+ Pre requisite+Post condition+ test steps + Test Data
+
+
+TC_01-------------------R01----->Tracebility
+
+
+
+
+
+Boundry value
+
+
+6--16
+
+5,6,7---------------15,16,17------>n-1,n,n+1
+
+
+
+Equivalence Partitioning
+
+
+0------6---16-----
+
+0-5------> invalid-------2,4
+6 to 16---->valid-------8,10
+>16----->invalid------>43,100
+
+
+
+
+
+
+Business Team
+
+
+B1: Implement Login and Logout Requirement
+
+T1: Description:
+    - user should be able to enter username
+	- password field should be present
+     - Login Button
+
+     Secutity criteria:
+      - username should be between 6-16 character
+      - username to start with uppercase
+      - atleast one numeric character
+      - one special character
+
+	  
+	  
+	  
+	  B1------T1----->Tc_01_Login-------DF01
+	  
+	  
+	 Tc_01_Login 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
